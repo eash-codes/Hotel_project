@@ -1,0 +1,8 @@
+import Room1Img from '/';
+import Room1ImgLg from '/';
+import Room2Img from '/';
+import Room2ImgLg from '/';
+import Room3Img from '/';
+import Room3ImgLg from '/';
+
+//TEMP LOC TO BE PLACED INSIDE data.js
