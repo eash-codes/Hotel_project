@@ -7,9 +7,10 @@ import { roomData } from "../roomdata/data";
 export const RoomContext = createContext();
 
 const RoomProvider = ({children}) => {
-    console.log(roomData);
+    const [ rooms,setRooms ] = useState(roomData);
+    console.log(rooms);
     return (
-    <RoomContext.Provider value={'room context'}>
+    <RoomContext.Provider value={{ rooms }}>
         {children}
     </RoomContext.Provider>
     );
