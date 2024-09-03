@@ -1,7 +1,9 @@
 import React from 'react';
+
 // components
+
 import Rooms from './Rooms';
-import BookForm from './BookForm';
+import BookForm from'./BookForm';
 import HeroSlider from '../components/HeroSlider';
 
 const Home = () => {
